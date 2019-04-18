@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML HOMEWORK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./web_hw.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./latitude_temparature.html">Vs. Temperature</a>
+                        <a class="dropdown-item" href="./latitude_humidity.html">Vs. Humidity</a>
+                        <a class="dropdown-item" href="./latitude_cloudiness.html">Vs. Cloudiness</a>
+                        <a class="dropdown-item" href="./latitude_windspeed.html">Vs. Windspeed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./data.html">Data</a>
+                </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box">
+                    <h1> Latitude vs Cloudiness</h1>
+                    <hr>
+                    <div class="text-center">
+                        <img src="./Fig3.png" class=box-image-viz alt="Latitude vs. Cloudiness">
+                    </div>
+                    <p>
+                            Cloud cover values only vary by 0.03 from year to year, whereas the local, day to day variability in cloud amount typically rises to 0.3 over the globe. Most data sets agree on the fact that the land is covered by 0.10-0.15 less cloud than the oceans.[2]
+
+                            Lastly, there is a latitudinal variation in the cloud cover, such that around 20°N there are regions with 0.10 less cloudiness than the global mean. Almost the same variation (0.15 instead of 0.10) is found 20°S. On the other hand, in the storm regions of the Southern Hemisphere midlatitudes were found to have with 0.15-0.25 more cloudiness than the global mean at 60°S.[2] On average, about 52% of Earth is cloud-covered at any moment.[5] Some regions are almost always cloudy such as the Amazon Rainforest and some others are almost always clear such as the Sahara Desert.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="box-1">
+                        <h2> Visualizations</h2>
+                        <hr>
+                        <div class="text-center">
+                            <a href="./latitude_temparature.html">
+                                <img src="./Fig1.png" alt="Latitude vs. Max Temperature">
+                            </a>
+                            <a href="./latitude_humidity.html" alt="Latitude vs. Humidity">
+                                <img src="./Fig2.png" >
+                            </a>
+                            <a href="./latitude_cloudiness.html" alt="Latitude vs. Cloudiness">
+                                <img src="./Fig3.png" >
+                            </a>
+                            <a href="latitude_windspeed.html" alt="Latitude vs. Windspeed">
+                                <img src="./Fig4.png" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>

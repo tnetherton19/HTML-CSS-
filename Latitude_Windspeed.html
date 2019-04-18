@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML HOMEWORK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./web_hw.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./latitude_temparature.html">Vs. Temperature</a>
+                        <a class="dropdown-item" href="./latitude_humidity.html">Vs. Humidity</a>
+                        <a class="dropdown-item" href="./latitude_cloudiness.html">Vs. Cloudiness</a>
+                        <a class="dropdown-item" href="./latitude_windspeed.html">Vs. Windspeed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./data.html">Data</a>
+                </li>
+        </ul>
+        </div>
+    </nav>
+</div>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box">
+                    <h1> Latitude vs Wind Speed</h1>
+                    <hr>
+                    <div class="text-center">
+                        <img src="./Fig4.png" class=box-image-viz alt="Latitude vs. Wind Speed">
+                    </div>
+                    <p>
+                            The fastest wind speed not related to tornadoes ever recorded was during the passage of Tropical Cyclone Olivia on 10 April 1996: an automatic weather station on Barrow Island, Australia, registered a maximum wind gust of 408 km/h (220 kn; 253 mph; 113 m/s).[2] The wind gust was evaluated by the WMO Evaluation Panel who found that the anemometer was mechanically sound and the gust was within statistical probability and ratified the measurement in 2010. The anemometer was mounted 10 m above ground level (and thus 64 m above sea level). During the cyclone, several extreme gusts of greater than 300 km/h (160 kn; 83 m/s) were recorded, with a maximum 5-minute mean speed of 176 km/h (95 kn; 110 mph; 49 m/s), the extreme gust factor was in the order of 2.27–2.75 times the mean wind speed. The pattern and scales of the gusts suggest that a mesovortex was embedded in the already strong eyewall of the cyclone.[3]
+
+                            Currently, the second-highest surface wind speed ever officially recorded is 372 km/h (231 mph; 103 m/s) at the Mount Washington (New Hampshire) Observatory: 6,288 ft (1917 m) above sea level in the US on 12 April 1934, using a heated anemometer. The anemometer, specifically designed for use on Mount Washington was later tested by the US National Weather Bureau and confirmed to be accurate.[4]
+                            
+                            Wind speeds within certain atmospheric phenomena (such as tornadoes) may greatly exceed these values but have never been accurately measured. Directly measuring these tornadic winds is rarely done as the violent wind would destroy the instruments. A method of estimating speed is to use Doppler on Wheels to sense the wind speeds remotely,[5] and, using this method, the figure of 486 km/h (302 mph; 135 m/s) during the 1999 Bridge Creek–Moore tornado in Oklahoma on 3 May 1999 is often quoted as the highest-recorded surface wind speed,[6] although another figure of 512 kilometres per hour (318 mph) has also been quoted for the same tornado.[7] Yet another number used by the Center for Severe Weather Research for that measurement is 486 ± 32 km/h (302 ± 20 mph).[8] However, speeds measured by Doppler radar are not considered official records.[7]
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                    <div class="box-1">
+                        <h2> Visualizations</h2>
+                        <hr>
+                        <div class="text-center">
+                            <a href="./latitude_temparature.html">
+                                <img src="./Fig1.png" alt="Latitude vs. Max Temperature">
+                            </a>
+                            <a href="./latitude_humidity.html" alt="Latitude vs. Humidity">
+                                <img src="./Fig2.png" >
+                            </a>
+                            <a href="./latitude_cloudiness.html" alt="Latitude vs. Cloudiness">
+                                <img src="./Fig3.png" >
+                            </a>
+                            <a href="latitude_windspeed.html" alt="Latitude vs. Windspeed">
+                                <img src="./Fig4.png" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
